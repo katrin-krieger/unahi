@@ -17,7 +17,11 @@
   },
   "homepage": "https://github.com/katrin-krieger/unahi#readme",
   "dependencies": {
+    "express": "^4.16.2",
     "fitbit-node": "^2.1.0",
     "mqtt": "^2.15.2"
+  },
+  "devDependencies": {
+    "ngrok": "^2.2.25"
   }
 }
