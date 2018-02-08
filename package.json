@@ -1,0 +1,23 @@
+{
+  "name": "unahi",
+  "version": "0.0.1",
+  "description": " A node MQTT client to receive data from wireless scales and forwarding them to FitBit ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katrin-krieger/unahi.git"
+  },
+  "author": "Katrin Krieger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/katrin-krieger/unahi/issues"
+  },
+  "homepage": "https://github.com/katrin-krieger/unahi#readme",
+  "dependencies": {
+    "fitbit-node": "^2.1.0",
+    "mqtt": "^2.15.2"
+  }
+}
