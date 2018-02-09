@@ -7,7 +7,7 @@ let FitbitApiClient = require("fitbit-node");
 let config = require("./fitbit_credentials.json");
 
 let client = new FitbitApiClient(config);
-let ngrok_endpoint
+let ngrok_endpoint;
 
 //redirect to fitbit authorization page
 app.get("/authorize", (req, res) => {
